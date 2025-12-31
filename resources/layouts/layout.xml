@@ -1,0 +1,9 @@
+<layout id="WatchFace">
+  <label id="Line1" />
+  <label id="TIME"  />
+  <label id="DATE"  />
+  <label id="BATT"  />
+  <label id="STEP"  />
+  <label id="C_HR"  />
+  <label id="Footer"/>
+</layout>

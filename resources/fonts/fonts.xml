@@ -1,0 +1,16 @@
+<resources>
+  <fonts>
+    <font id="RobotoMono16"
+          filename="RobotoMono16.fnt"
+          filter="0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz[]:~ $%#.-@_"/>
+    <font id="RobotoMono24"
+          filename="RobotoMono24.fnt"
+          filter="0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz[]:~ $%#.-@_"/>
+    <font id="RobotoMono28"
+          filename="RobotoMono28.fnt"
+          filter="0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz[]:~ $%#.-@_"/>
+    <font id="RobotoMono32"
+          filename="RobotoMono32.fnt"
+          filter="0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz[]:~ $%#.-@_"/>
+  </fonts>
+</resources>
