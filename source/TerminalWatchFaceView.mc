@@ -28,6 +28,7 @@ class TerminalWatchFaceView extends WatchUi.WatchFace {
     dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_BLACK);
     dc.clear(); // clears with background color :contentReference[oaicite:1]{index=1}
 
+    // Offsets
     var w = dc.getWidth();
     var h = dc.getHeight();
     var x = (w * 0.12).toNumber(); // % from left
