@@ -2,22 +2,28 @@
 
 This is a simple terminal watchface inspired by [this r/unixporn post](https://www.reddit.com/r/unixporn/comments/9ndo8o/oc_always_keep_some_terminal_with_you/).
 
-![watch.png](.github/watch.png)
+<div align=center>
+<img src=".github/watch.png" width=400/>
+</div>
+
+**TLDR**: This watchface was designed for a _Forerunner 570 47mm_ but you can build to your own device using this repo (download sdk, set your device, build, upload `.prg` file)
 
 ## Building
 
 > [!IMPORTANT]
-> This watchface was designed specifically for the Forerunner 570 47mm (454px x 454px). The internal code could be modified to size correctly for other watchface sizes with changes to the text offset and text size. There are included smaller font sizes.
+> This watchface was designed specifically for the _Forerunner 570 47mm_ (454x454 px). The internal code could be modified to size correctly for other watchface sizes with changes to the text offset and text size. There are included smaller font sizes.
 
 Download the [connectiq sdk](https://developer.garmin.com/connect-iq/sdk/).
 
 If you want to simulate this watchface, I suggest downloading the official [monkeyc vscode extention](https://marketplace.visualstudio.com/items?itemName=garmin.monkey-c) but if you are like me and using some variant of Linux, then you could use the included `Makefile`.
 
-![screenshot.png](.github/screenshot.png)
+<div align=center>
+<img src=".github/screenshot.png" width=400/>
+</div>
+
+The final `.prg` build file is in `/bin` and can be uploaded to your Garmin's `/GARMIN/APPS` directory. It will be auto-recognized and installed.
 
 ## Modification
-
-The font size can be changed
 
 Most of the core code is within the `TerminalWatchFaceView.mc`. It handles the calculations and text rendering.
 
