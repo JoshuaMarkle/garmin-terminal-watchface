@@ -2,7 +2,7 @@
 
 This is a simple terminal watchface inspired by [this r/unixporn post](https://www.reddit.com/r/unixporn/comments/9ndo8o/oc_always_keep_some_terminal_with_you/).
 
-![screenshot.png](.github/screenshot.png)
+![watch.png](.github/watch.png)
 
 ## Building
 
@@ -12,6 +12,8 @@ This is a simple terminal watchface inspired by [this r/unixporn post](https://w
 Download the [connectiq sdk](https://developer.garmin.com/connect-iq/sdk/).
 
 If you want to simulate this watchface, I suggest downloading the official [monkeyc vscode extention](https://marketplace.visualstudio.com/items?itemName=garmin.monkey-c) but if you are like me and using some variant of Linux, then you could use the included `Makefile`.
+
+![screenshot.png](.github/screenshot.png)
 
 ## Modification
 
